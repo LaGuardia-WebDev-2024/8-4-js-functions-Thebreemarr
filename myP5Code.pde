@@ -3,13 +3,14 @@ void setup(){
   size(600, 400); 
   background(255,255,255);
 
-  var textX = random(50, 550);
-  var textY = random(50, 350);
-  var yourName = "Your Name";
-
-  fill(241,9,55);
-  textSize(40);
-  text("Hiiii, " + yourName, textX, textY);
+drawName()
+drawName()
+drawName()
+drawName()
+drawName()
+drawName()
+drawName()
+drawName()
 }
 
 //🟢Draw Function - Runs on Repeat
@@ -38,3 +39,15 @@ mouseClicked = function(){
   drawStar();
   drawStar();
 };
+
+var drawName = function(){
+var textX = random(60, 30);
+  var textY = random(10, 800);
+  var yourName = "⭐my name is Bree⭐ ";
+
+  fill(52, 126, 227);
+  textSize(40);
+  text("Hiiii, " + yourName, textX, textY);
+
+}
+
