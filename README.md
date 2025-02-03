@@ -21,15 +21,22 @@ It's time to wrap your code in a function:
 - Start off by creating a new function, paying close attention to (parenthesis) and {curly braces} ;
 - Move all of your code inside the function;
 - Call your new function once to make sure it works.
-  <br><br>
+
+> `var drawName = function(){`
+> <br>
+> <br>  `}`
 
 Bonus: Indent the code inside the function, by selecting it and clicking TAB. It doesn't change the result, but it makes the code look nicer and easier to read ^ . ^
-  <br><br>
+<br><br>
 
 ### Step #3 - Keep calling it! <br>
 
-Now that we have it in a function, it's easy for us to call it multiple times. Call it at least 3 more times! Names everywhere!
+Now that we have it in a function, it's easy for us to call it multiple times inside the `setup() function`. Call it at least 3 times! Names everywhere!
 <br><br>
+
+> `drawName();` <br> 
+> `drawName();`. <br> 
+> `drawName();` <br>
 
 ### Step #4 - Add a new custom fuction! <br>
 
